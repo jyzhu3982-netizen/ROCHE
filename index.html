@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="面向血液科医生的初治滤泡性淋巴瘤R²与GALEN临床研究证据对比看板。" />
+  <meta name="theme-color" content="#071b2d" />
+  <title>初治FL｜R²与GALEN证据看板</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23071b2d'/%3E%3Cpath d='M14 32h10l5-12 8 24 5-12h8' fill='none' stroke='%233ed6c4' stroke-width='5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E" />
+  <style>
+    :root{--ink:#071b2d;--navy:#0b2a42;--muted:#667789;--line:#d9e2e8;--paper:#f4f7f8;--white:#fff;--r2:#078f89;--r2-soft:#dff5f1;--g:#d66b45;--g-soft:#fae8df;--amber:#c78b19;--shadow:0 12px 34px rgba(7,27,45,.10)}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:"SF Pro Text","PingFang SC","Microsoft YaHei",system-ui,sans-serif;line-height:1.55}
+    a{color:inherit}.shell{max-width:1240px;margin:auto;padding:0 28px}.topbar{position:sticky;top:0;z-index:20;background:rgba(7,27,45,.96);color:#fff;border-bottom:1px solid rgba(255,255,255,.12);backdrop-filter:blur(14px)}
+    .topbar .shell{height:64px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{display:flex;align-items:center;gap:12px;font-weight:760;letter-spacing:.01em}.brand-mark{width:30px;height:30px;border:1px solid rgba(255,255,255,.26);border-radius:9px;display:grid;place-items:center;color:#65e4d6}.meta{font-size:13px;color:#b9c8d3;white-space:nowrap}
+    main{padding:38px 0 80px}.eyebrow{font-size:13px;font-weight:780;letter-spacing:.12em;color:var(--r2);text-transform:uppercase}.hero{display:grid;grid-template-columns:1.3fr .7fr;gap:30px;align-items:end;margin-bottom:28px}.hero h1{font-size:clamp(34px,5vw,58px);line-height:1.07;letter-spacing:-.04em;margin:10px 0 14px;max-width:830px}.hero p{margin:0;color:var(--muted);font-size:17px;max-width:760px}.scope{background:#eaf0f3;border-left:3px solid var(--r2);padding:17px 18px;border-radius:0 12px 12px 0;color:#34495b;font-size:14px}.scope strong{display:block;color:var(--ink);margin-bottom:5px}
+    .comparison{display:grid;grid-template-columns:1fr 90px 1fr;gap:18px;align-items:stretch}.arm{background:var(--white);border:1px solid var(--line);border-radius:20px;padding:26px;box-shadow:var(--shadow);position:relative;overflow:hidden}.arm:before{content:"";position:absolute;left:0;right:0;top:0;height:5px;background:var(--r2)}.arm.g:before{background:var(--g)}.arm-head{display:flex;justify-content:space-between;align-items:start;gap:15px;margin-bottom:24px}.arm h2{font-size:30px;margin:0;letter-spacing:-.03em}.drug{color:var(--muted);font-size:14px;margin-top:3px}.phase{padding:7px 11px;border-radius:999px;background:var(--r2-soft);color:#05736e;font-size:13px;font-weight:800;white-space:nowrap}.g .phase{background:var(--g-soft);color:#ad4d2c}.metric-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.metric{background:#f5f8f9;border:1px solid #e6ecef;border-radius:13px;padding:14px}.metric b{display:block;font-size:28px;line-height:1.15;letter-spacing:-.03em}.metric span{display:block;color:var(--muted);font-size:12px;margin-top:7px}.arm-foot{display:flex;justify-content:space-between;gap:14px;border-top:1px solid var(--line);margin-top:20px;padding-top:16px;font-size:13px;color:var(--muted)}.arm-foot strong{color:var(--ink)}
+    .versus{display:grid;place-items:center}.versus span{width:58px;height:58px;border-radius:50%;background:var(--ink);color:#fff;display:grid;place-items:center;font-size:12px;font-weight:850;letter-spacing:.08em;box-shadow:var(--shadow)}
+    .method-note{margin:15px 4px 0;color:var(--muted);font-size:13px}.method-note strong{color:var(--ink)}
+    .jumpbar{position:sticky;top:64px;z-index:15;display:flex;gap:8px;overflow:auto;margin:34px -10px 0;padding:10px;background:rgba(244,247,248,.92);backdrop-filter:blur(12px);scrollbar-width:none}.jumpbar::-webkit-scrollbar{display:none}.jumpbar a{text-decoration:none;white-space:nowrap;border:1px solid var(--line);background:#fff;border-radius:999px;padding:8px 13px;font-size:13px;font-weight:720;color:#385064}.jumpbar a:hover,.jumpbar a:focus-visible{border-color:var(--r2);color:var(--r2);outline:none}
+    section.block{padding-top:76px;margin-top:-34px}.section-head{display:flex;justify-content:space-between;align-items:end;gap:28px;margin-bottom:20px}.section-head h2{font-size:32px;line-height:1.15;letter-spacing:-.035em;margin:0}.section-head p{max-width:610px;margin:0;color:var(--muted);font-size:14px}.section-kicker{font-size:12px;color:var(--r2);font-weight:820;letter-spacing:.11em;text-transform:uppercase;margin-bottom:7px}
+    .clinical-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.clinical-card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:20px;min-height:196px}.clinical-card .num{font-size:42px;font-weight:820;line-height:1;color:var(--ink);letter-spacing:-.05em}.clinical-card .num small{font-size:18px}.clinical-card h3{font-size:16px;margin:18px 0 7px}.clinical-card p{font-size:13px;color:var(--muted);margin:0}.clinical-card.r2{box-shadow:inset 0 4px 0 var(--r2)}.clinical-card.gg{box-shadow:inset 0 4px 0 var(--g)}.clinical-card.mix{box-shadow:inset 0 4px 0 var(--amber)}
+    .compare-panel{background:var(--ink);color:#fff;border-radius:22px;padding:26px;box-shadow:var(--shadow)}.toolrow{display:flex;justify-content:space-between;gap:20px;align-items:center;margin-bottom:28px}.segmented{display:flex;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);padding:4px;border-radius:12px;gap:3px}.segmented button{appearance:none;border:0;background:transparent;color:#a9bac8;font:inherit;font-size:14px;font-weight:750;padding:9px 13px;border-radius:8px;cursor:pointer}.segmented button.active{background:#fff;color:var(--ink)}.segmented button:focus-visible{outline:2px solid #63e1d4;outline-offset:2px}.compare-title{font-size:14px;color:#bfd0dc}.bars{display:grid;gap:17px}.bar-row{display:grid;grid-template-columns:180px 1fr 68px;gap:16px;align-items:center}.bar-label strong{display:block;font-size:15px}.bar-label span{display:block;color:#9fb1be;font-size:12px;margin-top:2px}.track{height:14px;background:rgba(255,255,255,.09);border-radius:999px;overflow:hidden}.fill{height:100%;border-radius:999px;background:var(--r2);width:0;transition:width .55s cubic-bezier(.2,.8,.2,1)}.fill.gfill{background:var(--g)}.bar-value{font-size:21px;font-weight:820;text-align:right;letter-spacing:-.03em}.chart-foot{display:flex;justify-content:space-between;gap:20px;align-items:start;border-top:1px solid rgba(255,255,255,.13);margin-top:24px;padding-top:17px;color:#9fb1be;font-size:12px}.chart-foot strong{color:#fff}.legend{display:flex;gap:14px;white-space:nowrap}.dot{display:inline-block;width:8px;height:8px;border-radius:2px;margin-right:6px;background:var(--r2)}.dot.gdot{background:var(--g)}
+    .pfs-card{background:#fff;border:1px solid var(--line);border-radius:20px;padding:24px;margin-top:14px}.pfs-head{display:flex;justify-content:space-between;gap:20px;align-items:center;margin-bottom:18px}.pfs-head h3{margin:0;font-size:18px}.pfs-head span{color:var(--muted);font-size:13px}.pfs-chart{position:relative;height:250px;border-left:1px solid #bfcbd3;border-bottom:1px solid #bfcbd3;margin:20px 24px 8px 50px;background:linear-gradient(to bottom,transparent 24%,#e8edef 25%,transparent 26%,transparent 49%,#e8edef 50%,transparent 51%,transparent 74%,#e8edef 75%,transparent 76%)}.axis-label{position:absolute;left:-43px;transform:translateY(50%);font-size:11px;color:var(--muted)}.axis-time{position:absolute;bottom:-25px;transform:translateX(-50%);font-size:11px;color:var(--muted)}.plot-line{position:absolute;height:3px;transform-origin:left center;border-radius:3px}.plot-line.rline{background:var(--r2)}.plot-line.gline{background:var(--g)}.plot-dot{position:absolute;width:12px;height:12px;border-radius:50%;transform:translate(-50%,50%);border:3px solid #fff;box-shadow:0 0 0 2px currentColor}.plot-dot.rdot{color:var(--r2);background:var(--r2)}.plot-dot.gdot2{color:var(--g);background:var(--g)}.plot-label{position:absolute;transform:translate(-50%,-8px);font-size:12px;font-weight:820;white-space:nowrap}.pfs-legend{display:flex;gap:20px;justify-content:center;font-size:13px;margin-top:30px;color:var(--muted)}
+    .matrix{display:grid;grid-template-columns:220px 1fr 1fr;border:1px solid var(--line);border-radius:18px;overflow:hidden;background:#fff}.matrix>div{padding:16px 18px;border-bottom:1px solid var(--line)}.matrix>div:nth-last-child(-n+3){border-bottom:0}.matrix .mh{background:var(--ink);color:#fff;font-weight:800}.matrix .rcol{background:linear-gradient(90deg,rgba(7,143,137,.06),transparent)}.matrix .gcol{background:linear-gradient(90deg,rgba(214,107,69,.07),transparent)}.matrix .label{font-weight:780;color:#31485a}.matrix p{font-size:13px;color:var(--muted);margin:4px 0 0}.badge{display:inline-block;border-radius:999px;padding:4px 8px;font-size:11px;font-weight:800;background:#eaf0f3;color:#385064;margin-left:6px}.badge.r{background:var(--r2-soft);color:#05736e}.badge.g{background:var(--g-soft);color:#a94c2d}
+    .safety-wrap{display:grid;grid-template-columns:1.4fr .6fr;gap:14px}.table-card,.callout{background:#fff;border:1px solid var(--line);border-radius:20px;overflow:hidden}.table-scroll{overflow:auto}.safety-table{width:100%;border-collapse:collapse;min-width:690px}.safety-table th,.safety-table td{padding:15px 16px;border-bottom:1px solid var(--line);text-align:right;font-size:13px}.safety-table th{font-size:12px;letter-spacing:.04em;color:#647687;background:#f1f5f6}.safety-table th:first-child,.safety-table td:first-child{text-align:left;font-weight:760}.safety-table tr:last-child td{border-bottom:0}.safety-table .nr{color:#9aa8b3}.callout{padding:23px}.callout h3{margin:0 0 14px;font-size:18px}.callout ul{list-style:none;padding:0;margin:0;display:grid;gap:12px}.callout li{border-left:3px solid var(--line);padding-left:12px;color:var(--muted);font-size:13px}.callout li strong{display:block;color:var(--ink);margin-bottom:2px}.callout li:nth-child(1){border-color:var(--r2)}.callout li:nth-child(2){border-color:var(--g)}.callout li:nth-child(3){border-color:var(--amber)}
+    .timeline{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.trial-time{background:#fff;border:1px solid var(--line);border-radius:16px;padding:20px}.trial-time h3{font-size:16px;margin:0 0 5px}.trial-time .trial-sub{font-size:12px;color:var(--muted);min-height:37px}.duration{font-size:31px;font-weight:820;letter-spacing:-.04em;margin:18px 0 5px}.duration.r2c{color:var(--r2)}.duration.gc{color:var(--g)}.timebar{height:7px;border-radius:9px;background:#e7edef;margin:13px 0 12px;overflow:hidden}.timebar i{display:block;height:100%;border-radius:inherit;background:var(--r2)}.timebar i.gb{background:var(--g)}.trial-time p{font-size:12px;color:var(--muted);margin:0}.trial-time .maint{margin-top:12px;border-top:1px solid var(--line);padding-top:12px;color:#435a6b}
+    .study-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.study{background:#fff;border:1px solid var(--line);border-radius:18px;padding:22px;display:grid;grid-template-columns:1fr auto;gap:16px}.study h3{margin:0;font-size:19px}.study .citation{font-size:12px;color:var(--muted);margin:4px 0 12px}.study p{font-size:13px;color:#455c6d;margin:0}.study .pillset{display:flex;gap:6px;flex-wrap:wrap;margin-top:14px}.study .score{text-align:right}.study .score b{display:block;font-size:27px}.study .score span{font-size:11px;color:var(--muted)}.study a{font-size:12px;color:var(--r2);font-weight:750;text-underline-offset:3px}.study.gstudy a{color:var(--g)}
+    .bottomline{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.verdict{border-radius:18px;padding:22px;border:1px solid var(--line);background:#fff}.verdict h3{font-size:16px;margin:0 0 12px;display:flex;gap:9px;align-items:center}.verdict h3:before{content:"";width:10px;height:10px;border-radius:50%;background:var(--r2)}.verdict.suggest h3:before{background:var(--amber)}.verdict.open h3:before{background:#97a6b0}.verdict ul{padding-left:18px;margin:0;color:var(--muted);font-size:13px}.verdict li+li{margin-top:8px}
+    .refs{border-top:1px solid var(--line);margin-top:68px;padding-top:26px}.refs summary{cursor:pointer;font-size:16px;font-weight:800}.refs ol{columns:2;column-gap:42px;padding-left:20px}.refs li{break-inside:avoid;margin:12px 0;font-size:12px;color:var(--muted)}.refs a{color:#365e78;text-underline-offset:2px}.footer{display:flex;justify-content:space-between;gap:20px;margin-top:34px;padding-top:18px;border-top:1px solid var(--line);font-size:12px;color:var(--muted)}
+    @media(max-width:980px){.clinical-grid,.timeline{grid-template-columns:repeat(2,1fr)}.safety-wrap{grid-template-columns:1fr}.study-grid{grid-template-columns:1fr}.bottomline{grid-template-columns:1fr}.matrix{grid-template-columns:170px 1fr 1fr}}
+    @media(max-width:850px){.shell{padding:0 18px}.hero{grid-template-columns:1fr}.comparison{grid-template-columns:1fr}.versus{height:28px}.versus span{width:46px;height:46px}.metric-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.topbar .meta{display:none}.section-head{display:block}.section-head p{margin-top:10px}.bar-row{grid-template-columns:125px 1fr 55px}.chart-foot{display:block}.legend{margin-top:10px}.refs ol{columns:1}.matrix{grid-template-columns:130px 1fr 1fr}.matrix>div{padding:13px 11px}}
+    @media(max-width:520px){main{padding-top:26px}.hero h1{font-size:38px}.metric-grid,.clinical-grid,.timeline{grid-template-columns:1fr}.arm{padding:22px}.arm-head{flex-direction:column}.arm h2{font-size:26px}.jumpbar{top:60px}.toolrow{display:block}.segmented{margin-top:12px;overflow:auto}.bar-row{grid-template-columns:1fr 55px}.bar-label{grid-column:1/-1}.track{grid-column:1}.bar-value{grid-column:2}.pfs-chart{margin-left:40px}.matrix{grid-template-columns:96px 1fr 1fr}.matrix>div{font-size:12px}.matrix p{font-size:11px}.footer{display:block}}
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="shell">
+      <div class="brand"><span class="brand-mark" aria-hidden="true">∿</span><span>FL Clinical Evidence Board</span></div>
+      <div class="meta">成人初治 FL 1–3A ｜证据截至 2026.09.16</div>
+    </div>
+  </header>
+  <main class="shell">
+    <section class="hero" aria-labelledby="page-title">
+      <div>
+        <div class="eyebrow">Frontline follicular lymphoma</div>
+        <h1 id="page-title">R² 与 GALEN<br />证据对比看板</h1>
+        <p>为血液科医生提炼研究阶段、缓解深度、长期疾病控制、毒性与疗程差异。</p>
+      </div>
+      <aside class="scope"><strong>临床问题</strong>既往未经系统治疗、需要治疗的成人滤泡性淋巴瘤中，两类免疫调节无化疗方案的现有证据如何？</aside>
+    </section>
+
+    <section class="comparison" aria-label="核心证据对比">
+      <article class="arm">
+        <div class="arm-head"><div><h2>R²</h2><div class="drug">rituximab + lenalidomide</div></div><span class="phase">Ⅲ期证据</span></div>
+        <div class="metric-grid">
+          <div class="metric"><b>1,030</b><span>RELEVANCE随机患者</span></div>
+          <div class="metric"><b>46.4%</b><span>10年PFS · R²臂</span></div>
+          <div class="metric"><b>82.4%</b><span>10年OS · R²臂</span></div>
+        </div>
+        <div class="arm-foot"><span>最长随访 <strong>10年</strong></span><span>证据基础 <strong>2项随机研究</strong></span></div>
+      </article>
+      <div class="versus" aria-hidden="true"><span>VS</span></div>
+      <article class="arm g">
+        <div class="arm-head"><div><h2>GALEN / G-len</h2><div class="drug">obinutuzumab + lenalidomide</div></div><span class="phase">Ⅱ期证据</span></div>
+        <div class="metric-grid">
+          <div class="metric"><b>190</b><span>两项前瞻性研究</span></div>
+          <div class="metric"><b>82–91%</b><span>3年PFS观察范围</span></div>
+          <div class="metric"><b>83.7%</b><span>5年PFS · 单中心</span></div>
+        </div>
+        <div class="arm-foot"><span>最长随访 <strong>5.9年</strong></span><span>证据基础 <strong>2项单臂Ⅱ期</strong></span></div>
+      </article>
+    </section>
+    <p class="method-note"><strong>阅读口径：</strong>展示的是不同试验的原始观察值，适合描述性并列，不用于证明方案间优效、等效或非劣效。</p>
+
+    <nav class="jumpbar" aria-label="页面章节">
+      <a href="#signal">临床信号</a><a href="#efficacy">疗效</a><a href="#comparability">可比性</a><a href="#safety">安全性</a><a href="#duration">疗程</a><a href="#trials">研究全景</a><a href="#bottomline">临床底线</a>
+    </nav>
+
+    <section class="block" id="signal">
+      <div class="section-head">
+        <div><div class="section-kicker">Signal scan</div><h2>先看四个临床信号</h2></div>
+        <p>把“研究数字”和“证据强度”同时放在视野内，避免只比较缓解率。</p>
+      </div>
+      <div class="clinical-grid">
+        <article class="clinical-card r2"><div class="num">10<small>年</small></div><h3>R²随访已成熟</h3><p>RELEVANCE最终分析：10年PFS 46.4%，10年OS 82.4%；随机Ⅲ期、多中心、中央审评。</p></article>
+        <article class="clinical-card gg"><div class="num">2<small>项</small></div><h3>GALEN前瞻性Ⅱ期</h3><p>LYSA 100例和MD Anderson 90例，均为高肿瘤负荷，观察到较深PET缓解。</p></article>
+        <article class="clinical-card mix"><div class="num">41–49<small>%</small></div><h3>高危FLIPI占比</h3><p>RELEVANCE及两项GALEN高负荷研究的高危FLIPI比例相近，但仍不能消除跨研究混杂。</p></article>
+        <article class="clinical-card"><div class="num">≈30<small>月</small></div><h3>长疗程研究占主导</h3><p>RELEVANCE及两项GALEN均包含持续治疗/抗CD20维持；SAKK则仅18周、无维持。</p></article>
+      </div>
+    </section>
+
+    <section class="block" id="efficacy">
+      <div class="section-head">
+        <div><div class="section-kicker">Efficacy</div><h2>疗效数字，按同一视角切换</h2></div>
+        <p>点击终点查看代表性高负荷研究。条形长度仅编码报告值，不代表统计学方案比较。</p>
+      </div>
+      <div class="compare-panel">
+        <div class="toolrow">
+          <div class="compare-title" id="chart-title">3年无进展生存率（PFS）</div>
+          <div class="segmented" role="group" aria-label="选择疗效或安全终点">
+            <button class="active" data-metric="pfs" aria-pressed="true">3年PFS</button>
+            <button data-metric="response" aria-pressed="false">CR / CMR</button>
+            <button data-metric="tox" aria-pressed="false">≥3级中性粒细胞减少</button>
+          </div>
+        </div>
+        <div class="bars" id="metric-bars" aria-live="polite">
+          <div class="bar-row"><div class="bar-label"><strong>RELEVANCE · R²</strong><span>随机Ⅲ期｜n=513</span></div><div class="track"><div class="fill" style="width:77%"></div></div><div class="bar-value">77%</div></div>
+          <div class="bar-row"><div class="bar-label"><strong>LYSA · GALEN</strong><span>多中心Ⅱ期｜n=100</span></div><div class="track"><div class="fill gfill" style="width:82%"></div></div><div class="bar-value">82%</div></div>
+          <div class="bar-row"><div class="bar-label"><strong>MDACC · G-len</strong><span>单中心Ⅱ期｜n=90</span></div><div class="track"><div class="fill gfill" style="width:91%"></div></div><div class="bar-value">91%</div></div>
+        </div>
+        <div class="chart-foot"><span id="chart-note"><strong>可比性：</strong>三项均以高肿瘤负荷患者为主；RELEVANCE 95%CI 72–80，LYSA 73–88，MDACC 85.3–97.2。</span><span class="legend"><span><i class="dot"></i>R²</span><span><i class="dot gdot"></i>G-len</span></span></div>
+      </div>
+
+      <div class="pfs-card">
+        <div class="pfs-head"><h3>随访成熟度一图读懂</h3><span>固定时间点PFS；未报告点不连线、不推算</span></div>
+        <svg viewBox="0 0 1000 330" role="img" aria-labelledby="pfs-title pfs-desc" style="width:100%;height:auto;min-height:270px">
+          <title id="pfs-title">R²与GALEN代表性研究的PFS随访时间点</title>
+          <desc id="pfs-desc">RELEVANCE报告3、6和10年PFS；LYSA报告3年PFS；MD Anderson G-len报告2、3和5年PFS。</desc>
+          <g stroke="#dfe6ea" stroke-width="1"><line x1="65" y1="24" x2="940" y2="24"/><line x1="65" y1="88" x2="940" y2="88"/><line x1="65" y1="152" x2="940" y2="152"/><line x1="65" y1="216" x2="940" y2="216"/><line x1="65" y1="280" x2="940" y2="280"/></g>
+          <g fill="#71818e" font-size="12" font-family="system-ui"><text x="26" y="28">100%</text><text x="34" y="92">75%</text><text x="34" y="156">50%</text><text x="34" y="220">25%</text><text x="48" y="284">0</text><text x="62" y="306">0年</text><text x="321" y="306">3年</text><text x="500" y="306">5年</text><text x="940" y="306" text-anchor="end">10年</text></g>
+          <polyline points="65,24 328,83 590,126 940,161" fill="none" stroke="#078f89" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+          <g fill="#078f89" stroke="#fff" stroke-width="4"><circle cx="328" cy="83" r="8"/><circle cx="590" cy="126" r="8"/><circle cx="940" cy="161" r="8"/></g>
+          <g fill="#056f6a" font-size="13" font-weight="750" font-family="system-ui"><text x="328" y="69" text-anchor="middle">77%</text><text x="590" y="112" text-anchor="middle">60%</text><text x="940" y="147" text-anchor="middle">46.4%</text></g>
+          <polyline points="65,24 328,70" fill="none" stroke="#d66b45" stroke-width="4" stroke-dasharray="9 7" stroke-linecap="round"/><circle cx="328" cy="70" r="7" fill="#d66b45" stroke="#fff" stroke-width="4"/><text x="328" y="51" text-anchor="middle" fill="#ad4d2c" font-size="13" font-weight="750" font-family="system-ui">LYSA 82%</text>
+          <polyline points="65,24 240,41 328,47 503,66" fill="none" stroke="#d66b45" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><g fill="#d66b45" stroke="#fff" stroke-width="4"><circle cx="240" cy="41" r="8"/><circle cx="328" cy="47" r="8"/><circle cx="503" cy="66" r="8"/></g><g fill="#ad4d2c" font-size="13" font-weight="750" font-family="system-ui"><text x="210" y="30">93.3%</text><text x="351" y="42">91%</text><text x="503" y="53" text-anchor="middle">83.7%</text></g>
+        </svg>
+        <div class="pfs-legend"><span><i class="dot"></i>RELEVANCE R²</span><span><i class="dot gdot"></i>LYSA GALEN（虚线）</span><span><i class="dot gdot"></i>MDACC G-len</span></div>
+      </div>
+    </section>
+
+    <section class="block" id="comparability">
+      <div class="section-head">
+        <div><div class="section-kicker">Trial comparability</div><h2>为什么不能只看“谁的数字更高”</h2></div>
+        <p>病例选择、评效标准与维持策略共同影响表面缓解率和PFS。</p>
+      </div>
+      <div class="matrix" role="table" aria-label="R²与GALEN研究可比性矩阵">
+        <div class="mh">维度</div><div class="mh">R²研究</div><div class="mh">GALEN研究</div>
+        <div class="label">研究层级</div><div class="rcol"><strong>随机Ⅲ期 + 随机Ⅱ期</strong><p>另有2项单臂Ⅱ期</p></div><div class="gcol"><strong>2项单臂Ⅱ期</strong><p>多中心100例；单中心90例</p></div>
+        <div class="label">高肿瘤负荷</div><div class="rcol">RELEVANCE为GELF高负荷/需治疗；其他R²队列异质</div><div class="gcol">LYSA与MDACC均为GELF高负荷</div>
+        <div class="label">CR定义</div><div class="rcol">1999 IWG CT、2007 IWG PET或Lugano，时间点不一</div><div class="gcol">LYSA传统CR与事后PET-CMR并报；MDACC用Lugano PET</div>
+        <div class="label">抗CD20维持</div><div class="rcol">RELEVANCE约2年；SAKK无维持；其他6–12月治疗</div><div class="gcol">两项研究均持续G维持至约30个月</div>
+        <div class="label">随访成熟度</div><div class="rcol"><strong>最长10年</strong><span class="badge r">成熟</span></div><div class="gcol"><strong>3.7–5.9年</strong><span class="badge g">演进中</span></div>
+      </div>
+    </section>
+
+    <section class="block" id="safety">
+      <div class="section-head">
+        <div><div class="section-kicker">Safety</div><h2>主要安全性信号</h2></div>
+        <p>以研究内发生率呈现。由于暴露时长、支持治疗与AE采集方式不同，不宜作跨研究安全性排序。</p>
+      </div>
+      <div class="safety-wrap">
+        <div class="table-card table-scroll">
+          <table class="safety-table">
+            <thead><tr><th>研究</th><th>≥3级中性粒细胞减少</th><th>发热性中性粒细胞减少</th><th>≥3级感染</th><th>≥3级皮疹/皮肤反应</th><th>治疗相关死亡</th></tr></thead>
+            <tbody>
+              <tr><td>RELEVANCE · R²</td><td>32%</td><td>2%</td><td>2%*</td><td>7%*</td><td>1例</td></tr>
+              <tr><td>SAKK · R²</td><td>23.4%</td><td>0</td><td class="nr">NR</td><td>5.2%</td><td>0</td></tr>
+              <tr><td>CALGB · R²</td><td>21%</td><td>0（≥3级）</td><td>11%</td><td>8%</td><td>0</td></tr>
+              <tr><td>LYSA · GALEN</td><td>47%</td><td>2%</td><td>8%</td><td>2%</td><td>0</td></tr>
+              <tr><td>MDACC · G-len</td><td>18.9%</td><td>2.2%</td><td>肺炎6.7%</td><td>11.1%</td><td>0</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <aside class="callout">
+          <h3>临床阅读提示</h3>
+          <ul>
+            <li><strong>R²：中性粒细胞减少与皮肤反应</strong>RELEVANCE中暂停59%、减量36%，因AE停药11%。</li>
+            <li><strong>GALEN：骨髓抑制与感染监测</strong>LYSA中≥3级中性粒细胞减少47%、≥3级感染8%。</li>
+            <li><strong>疗程影响暴露</strong>两项GALEN和RELEVANCE均为长疗程，不能与18周SAKK直接比累计毒性。</li>
+          </ul>
+          <p style="font-size:11px;color:var(--muted);margin:18px 0 0">* RELEVANCE“感染2%”指伴中性粒细胞减少的≥3级感染；“7%”为≥3级总体皮肤反应。</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="block" id="duration">
+      <div class="section-head">
+        <div><div class="section-kicker">Treatment exposure</div><h2>疗程与维持：不是同一种“无化疗”</h2></div>
+        <p>疗程差异会同时改变治疗负担、累积毒性和晚期疾病控制。</p>
+      </div>
+      <div class="timeline">
+        <article class="trial-time"><h3>SAKK 35/10</h3><div class="trial-sub">R² · 随机Ⅱ期</div><div class="duration r2c">18周</div><div class="timebar"><i style="width:15%"></i></div><p>来那度胺15 mg连续；利妥昔单抗最多8次</p><p class="maint">无维持</p></article>
+        <article class="trial-time"><h3>CALGB 50803</h3><div class="trial-sub">R² · 单臂Ⅱ期</div><div class="duration r2c">12月</div><div class="timebar"><i style="width:40%"></i></div><p>来那度胺12周期；利妥昔单抗8次</p><p class="maint">无独立维持阶段</p></article>
+        <article class="trial-time"><h3>RELEVANCE</h3><div class="trial-sub">R² · 随机Ⅲ期</div><div class="duration r2c">≈30月</div><div class="timebar"><i style="width:100%"></i></div><p>来那度胺最多18周期；利妥昔单抗总疗程约2年</p><p class="maint">含利妥昔单抗维持</p></article>
+        <article class="trial-time"><h3>LYSA / MDACC</h3><div class="trial-sub">GALEN · 单臂Ⅱ期</div><div class="duration gc">≈30月</div><div class="timebar"><i class="gb" style="width:100%"></i></div><p>来那度胺约18个月；奥妥珠单抗持续至约30个月</p><p class="maint">含奥妥珠单抗维持</p></article>
+      </div>
+    </section>
+
+    <section class="block" id="trials">
+      <div class="section-head">
+        <div><div class="section-kicker">Trial landscape</div><h2>六个独立前瞻性试验家族</h2></div>
+        <p>长期更新已归入同一研究，不重复计数。点击文献可进入原始报告。</p>
+      </div>
+      <div class="study-grid">
+        <article class="study"><div><h3>RELEVANCE</h3><div class="citation">国际随机Ⅲ期｜n=1,030｜R²臂513</div><p>第120周CR/CRu 48%；3年PFS 77%；10年PFS 46.4%、OS 82.4%。</p><div class="pillset"><span class="badge r">高负荷</span><span class="badge">独立审评</span><span class="badge">10年随访</span></div><p style="margin-top:13px"><a href="https://pubmed.ncbi.nlm.nih.gov/30184451/" target="_blank" rel="noreferrer">初次报告</a> · <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9553375/" target="_blank" rel="noreferrer">6年</a> · <a href="https://pubmed.ncbi.nlm.nih.gov/41915772/" target="_blank" rel="noreferrer">10年</a></p></div><div class="score"><b>Ⅲ</b><span>期</span></div></article>
+        <article class="study"><div><h3>SAKK 35/10</h3><div class="citation">随机Ⅱ期｜n=154｜R²臂77</div><p>第23周ORR 81.8%；中位PFS 9.3年；10年OS 77%；18周治疗、无维持。</p><div class="pillset"><span class="badge r">有治疗指征</span><span class="badge">10年随访</span></div><p style="margin-top:13px"><a href="https://pubmed.ncbi.nlm.nih.gov/31101627/" target="_blank" rel="noreferrer">初次报告</a> · <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11999207/" target="_blank" rel="noreferrer">10年更新</a></p></div><div class="score"><b>Ⅱ</b><span>期</span></div></article>
+        <article class="study"><div><h3>CALGB 50803</h3><div class="citation">多中心单臂Ⅱ期｜治疗/可评价n=65</div><p>最佳ORR 95%、CR 72%；5年PFS 72%、OS 100%；78%完成12周期。</p><div class="pillset"><span class="badge">PET/CT</span><span class="badge">5年随访</span></div><p style="margin-top:13px"><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5789808/" target="_blank" rel="noreferrer">原始全文</a></p></div><div class="score"><b>Ⅱ</b><span>期</span></div></article>
+        <article class="study"><div><h3>MD Anderson R²</h3><div class="citation">单中心Ⅱ期｜FL n=79</div><p>ITT ORR 95%、CR 86%；8年PFS 65%、OS 98%；约一半符合GELF高负荷。</p><div class="pillset"><span class="badge">PET/CT</span><span class="badge">8.6年随访</span></div><p style="margin-top:13px"><a href="https://pubmed.ncbi.nlm.nih.gov/25439689/" target="_blank" rel="noreferrer">初次报告</a> · <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7907727/" target="_blank" rel="noreferrer">长期更新</a></p></div><div class="score"><b>Ⅱ</b><span>期</span></div></article>
+        <article class="study gstudy"><div><h3>LYSA GALEN</h3><div class="citation">国际多中心单臂Ⅱ期｜n=100</div><p>诱导末ORR 92%、传统CR/CRu 47%；PET-CMR 80%；3年PFS 82%、OS 94%。</p><div class="pillset"><span class="badge g">GELF高负荷</span><span class="badge">21中心</span><span class="badge">3.7年随访</span></div><p style="margin-top:13px"><a href="https://pubmed.ncbi.nlm.nih.gov/34936697/" target="_blank" rel="noreferrer">原始报告</a></p></div><div class="score"><b>Ⅱ</b><span>期</span></div></article>
+        <article class="study gstudy"><div><h3>MD Anderson G-len</h3><div class="citation">单中心单臂Ⅱ期｜论文分析n=90</div><p>最佳ORR 97.7%、CR 96.6%；3年PFS 91%、5年PFS 83.7%；POD24 7%。</p><div class="pillset"><span class="badge g">GELF高负荷</span><span class="badge">PET/Lugano</span><span class="badge">5.9年随访</span></div><p style="margin-top:13px"><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12405678/" target="_blank" rel="noreferrer">原始全文</a></p></div><div class="score"><b>Ⅱ</b><span>期</span></div></article>
+      </div>
+    </section>
+
+    <section class="block" id="bottomline">
+      <div class="section-head">
+        <div><div class="section-kicker">Clinical bottom line</div><h2>临床底线</h2></div>
+        <p>把确定结论、趋势信号和研究空白分开，便于学术沟通。</p>
+      </div>
+      <div class="bottomline">
+        <article class="verdict"><h3>直接证据支持</h3><ul><li>R²在初治、需治疗FL中具有持久抗肿瘤活性。</li><li>随机Ⅲ期结果和10年随访已成熟。</li><li>RELEVANCE未达到相对R-化疗的预设优效性终点。</li></ul></article>
+        <article class="verdict suggest"><h3>Ⅱ期信号提示</h3><ul><li>GALEN在高肿瘤负荷患者中可获得较高PET-CMR。</li><li>3～5年PFS观察值具有临床吸引力。</li><li>持续G维持可能参与后期疾病控制。</li></ul></article>
+        <article class="verdict open"><h3>仍待研究回答</h3><ul><li>两类方案的相对PFS、OS及比较安全性。</li><li>老年/衰弱、FLIPI高危和巨大肿块患者的最优选择。</li><li>疗程缩短、维持价值、生活质量和长期SPM风险。</li></ul></article>
+      </div>
+    </section>
+
+    <details class="refs">
+      <summary>主要原始文献与注册信息</summary>
+      <ol>
+        <li>Morschhauser F, et al. <a href="https://doi.org/10.1056/NEJMoa1805104" target="_blank" rel="noreferrer">N Engl J Med. 2018;379:934–947</a>. PMID 30184451. NCT01476787/NCT01650701.</li>
+        <li>Morschhauser F, et al. <a href="https://doi.org/10.1200/JCO.22.00843" target="_blank" rel="noreferrer">J Clin Oncol. 2022;40:3239–3245</a>. PMID 35947804.</li>
+        <li>Gower N, et al. <a href="https://doi.org/10.1182/blood.2026033126" target="_blank" rel="noreferrer">Blood. 2026;147:3061–3068</a>. PMID 41915772.</li>
+        <li>Zucca E, et al. <a href="https://doi.org/10.1182/blood-2018-10-879643" target="_blank" rel="noreferrer">Blood. 2019;134:353–362</a>. PMID 31101627. NCT01307605.</li>
+        <li>Kimby E, et al. <a href="https://doi.org/10.1182/bloodadvances.2024014840" target="_blank" rel="noreferrer">Blood Adv. 2025;9:1712–1719</a>. PMID 39883948.</li>
+        <li>Martin P, et al. <a href="https://doi.org/10.1093/annonc/mdx496" target="_blank" rel="noreferrer">Ann Oncol. 2017;28:2806–2812</a>. PMID 28945884. NCT01145495.</li>
+        <li>Strati P, et al. <a href="https://doi.org/10.1182/blood.2020007994" target="_blank" rel="noreferrer">Blood. 2021;137:1124–1129</a>. PMID 32932518. NCT00695786.</li>
+        <li>Bachy E, et al. <a href="https://doi.org/10.1182/blood.2021013526" target="_blank" rel="noreferrer">Blood. 2022;139:2338–2346</a>. PMID 34936697. NCT01582776.</li>
+        <li>Akkad N, et al. <a href="https://doi.org/10.1182/bloodadvances.2025016483" target="_blank" rel="noreferrer">Blood Adv. 2025;9:4396–4404</a>. PMID 40517417. NCT02871219.</li>
+      </ol>
+    </details>
+    <footer class="footer"><span>供血液科专业人士学术沟通使用，不替代个体化诊疗决策。</span><span>NR＝未报告；0＝原文明确报告为零。</span></footer>
+  </main>
+  <script>
+    const metricData={
+      pfs:{title:'3年无进展生存率（PFS）',note:'<strong>可比性：</strong>三项均以高肿瘤负荷患者为主；RELEVANCE 95%CI 72–80，LYSA 73–88，MDACC 85.3–97.2。',rows:[['RELEVANCE · R²','随机Ⅲ期｜n=513',77,'r'],['LYSA · GALEN','多中心Ⅱ期｜n=100',82,'g'],['MDACC · G-len','单中心Ⅱ期｜n=90',91,'g']]},
+      response:{title:'完全缓解 / 完全代谢缓解（CR / CMR）',note:'<strong>口径不同：</strong>RELEVANCE为第120周CT-CR/CRu；LYSA为诱导末1999 IWG CR/CRu；MDACC为最佳PET/Lugano CR。不能直接排序。',rows:[['RELEVANCE · R²','第120周CT CR/CRu',48,'r'],['LYSA · GALEN','诱导末传统CR/CRu',47,'g'],['MDACC · G-len','最佳PET CR｜n=88',96.6,'g']]},
+      tox:{title:'≥3级中性粒细胞减少',note:'<strong>暴露不同：</strong>三项均为长疗程，但支持治疗、AE采集和剂量调整规则不同；发生率不能解释为比较安全性。',rows:[['RELEVANCE · R²','安全人群n=507',32,'r'],['LYSA · GALEN','安全人群n=100',47,'g'],['MDACC · G-len','安全人群n=90',18.9,'g']]}
+    };
+    const buttons=document.querySelectorAll('[data-metric]');
+    const bars=document.getElementById('metric-bars');
+    buttons.forEach(button=>button.addEventListener('click',()=>{
+      buttons.forEach(b=>{b.classList.toggle('active',b===button);b.setAttribute('aria-pressed',b===button?'true':'false')});
+      const d=metricData[button.dataset.metric];document.getElementById('chart-title').textContent=d.title;document.getElementById('chart-note').innerHTML=d.note;
+      bars.innerHTML=d.rows.map(([name,sub,value,arm])=>`<div class="bar-row"><div class="bar-label"><strong>${name}</strong><span>${sub}</span></div><div class="track"><div class="fill ${arm==='g'?'gfill':''}" style="width:0"></div></div><div class="bar-value">${value}%</div></div>`).join('');
+      requestAnimationFrame(()=>bars.querySelectorAll('.fill').forEach((el,i)=>el.style.width=d.rows[i][2]+'%'));
+    }));
+  </script>
+</body>
+</html>
